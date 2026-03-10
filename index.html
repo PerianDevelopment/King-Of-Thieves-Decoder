@@ -152,9 +152,9 @@
         </div>
 
         <div id="dbMatch" class="db-match-box">
-            <div id="matchStatus" class="no-match">Upload a layout to check the database...</div>
+            <div id="matchStatus" class="no-match">Upload a screenshot to check your base number...</div>
             <div id="matchInfo" class="match-title"></div>
-            <a id="matchLink" href="#" target="_blank" class="match-link hidden">VIEW SOLUTION ON G3CD</a>
+            <a id="matchLink" href="#" target="_blank" class="match-link hidden">View layouts on G3CD</a>
         </div>
 
         <div id="results" class="hidden">
@@ -167,13 +167,13 @@
             { name: "Treasury", border: "#fbffb0", bT: 10, solid: "#612d0f", sT: 50, fill: 15 },
             { name: "Forest", border: "#fcfc73", bT: 12, solid: "#363b05", sT: 50, fill: 15 },
             { name: "Depot", border: "#d18ac9", bT: 10, solid: "#38275b", sT: 50, fill: 15 },
-            { name: "Temple", border: "#b2bb86", bT: 12, solid: "#2f302a", sT: 50, fill: 15 },
+            { name: "Temple", border: "#bcc392", bT: 10, solid: "#2f302a", sT: 50, fill: 15 },
             { name: "Magma", border: "#ff892a", bT: 10, solid: "#5f1625", sT: 34, fill: 10 },
             { name: "Ice", border: "#bcf7fb", bT: 10, solid: "#1a335d", sT: 50, fill: 10 },
             { name: "Castle", border: "#d0ebfd", bT: 10, solid: "#393649", sT: 50, fill: 15 },
             { name: "Finsterra", border: "#a2fefa", bT: 10, solid: "#003f49", sT: 50, fill: 10 },
             { name: "Muse", border: "#ffe384", bT: 10, solid: "#623410", sT: 50, fill: 10 },
-            { name: "Crypt", border: "#ffccdc", bT: 10, solid: "#4b173b", sT: 50, fill: 15 },
+            { name: "Crypt", border: "#ffccdc", bT: 7, solid: "#4b173b", sT: 50, fill: 15 },
             { name: "Atlantis", border: "#dcf8b1", bT: 10, solid: "#1c3d44", sT: 50, fill: 10 },
             { name: "Birthday", border: "#ffcca0", bT: 10, solid: "#441419", sT: 50, fill: 10 },
             { name: "Witch", border: "#ffeb8b", bT: 10, solid: "#212b31", sT: 50, fill: 10 }
@@ -589,7 +589,7 @@
                 dbBox.classList.remove('active');
                 status.innerText = "NO DATABASE MATCH";
                 status.style.color = "#ff4444";
-                info.innerText = "Unknown Layout: " + binary;
+                info.innerText = "Unknown Layout";
                 link.classList.add('hidden');
             }
         }
